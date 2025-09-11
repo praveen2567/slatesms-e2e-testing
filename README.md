@@ -135,3 +135,79 @@ You can customize test execution with Playwright CLI options. For example, to ru
 ```bash
 npx playwright test tests/example.spec.ts
 ```
+## Project Structure
+
+- `tests/` – All Playwright end-to-end test cases (JavaScript)
+- `playwright.config.js` – Playwright configuration file
+- `utils/` – Utility/helper functions (if any)
+- `reports/` – Test result reports (auto-generated)
+
+---
+
+## Running Tests in CI/CD
+
+Tests can be automatically run in CI/CD pipelines (e.g., GitHub Actions).  
+On every push or pull request, the workflow in `.github/workflows/` triggers the tests.
+
+To run tests locally:
+```bash
+npx playwright test
+```
+
+---
+
+## Configuration
+
+You can set environment variables in a `.env` file (not committed to git) for things like base URLs or credentials.  
+Example `.env`:
+```
+BASE_URL=https://test-env.example.com
+USERNAME=testuser
+PASSWORD=supersecret
+```
+> Use [dotenv](https://www.npmjs.com/package/dotenv) or similar to load these variables in your Playwright setup if needed.
+
+---
+
+## Writing New Tests
+
+Add new JavaScript test files in the `tests/` directory.
+
+Example:
+```javascript
+// tests/example.spec.js
+const { test, expect } = require('@playwright/test');
+
+test('homepage loads', async ({ page }) => {
+  await page.goto(process.env.BASE_URL);
+  await expect(page).toHaveTitle(/SlateSMS/);
+});
+```
+
+---
+
+## Contribution
+
+We welcome contributions!  
+To contribute:
+
+1. Fork this repository and clone your fork
+2. Create a feature branch (`git checkout -b feature/my-feature`)
+3. Add your tests or changes
+4. Run tests locally with `npx playwright test`
+5. Open a Pull Request with a clear description
+
+Please follow our code style and write clear, maintainable tests.
+
+---
+
+## License
+
+This project is licensed under the MIT License.  
+See the [LICENSE](LICENSE) file for details.
+
+---
+
+## Support
+
+For questions or support, open an [issue](https://github.com/praveen2567/slatesms-e2e-testing/issues).
