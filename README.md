@@ -12,6 +12,8 @@
 - [Who It's For](#who-its-for)
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
+- [Roles & Responsibilities](#roles--responsibilities)
+- [Tech Stack](#tech-stack)
 - [Running Tests in CI/CD](#running-tests-in-cicd)
 - [Configuration](#configuration)
 - [Writing New Tests](#writing-new-tests)
@@ -152,15 +154,70 @@ I have designed this repository with a scalable structure based on industry best
 
 ---
 
+## My Roles & Responsibilities
+- Designed and built **BDD-driven Playwright framework** from scratch.  
+- Developed and maintained **Page Object Model (POM)** for scalability.  
+- Automated **100+ regression & smoke test cases** (UI + API).  
+- Integrated framework with **GitHub Actions** for CI/CD pipelines.  
+- Configured **Allure Reports** for test visibility and traceability.  
+- Implemented **parallel execution** for faster test runs.  
+- Collaborated with developers & QA team for **shift-left testing**.  
+- Maintained **test data and environment configurations**.  
+- Troubleshot flaky tests and applied **retry logic**.  
+- Participated in **Agile ceremonies (sprint planning, retrospectives, daily stand-ups)**.  
+
+---
+
+## Tech Stack & Prerequisites
+To build and execute this framework, the following tools and setup were used:
+
+- **Programming Language:** JavaScript (ES6+)
+- **Automation Tool:** Playwright
+- **Test Runner:** Mocha, Playwright Test
+- **Framework Pattern:** Page Object Model (POM)
+- **Reporting:** Allure Reports
+- **CI/CD:** GitHub Actions
+- **Other Tools:** Node.js, npm, Git, GitHub, Postman, Jira
+- **Browsers:** Chromium, Firefox, WebKit
+
+---
+
+## Key Achievements
+- Automated **100+ test scenarios** (UI + API).  
+- Reduced **manual regression time by 70–80%**.  
+- Achieved **85% pass rate** in regression pipelines.  
+- Delivered **98% defect-free releases across 5 sprints**.  
+- Accelerated feedback cycle with **CI/CD automation**.  
+- Detected **15+ critical defects early** using API validations.
+
+---
+
+## Business Impact
+- Improved **release confidence** for stakeholders.  
+- Faster go-to-market with **reliable automation pipelines**.  
+- Enhanced **developer collaboration** via shift-left testing.  
+- Reduced **production defects**, saving cost & time.  
+- Created a **reusable automation framework** that can be extended to future projects.
+  
+---
+
 ## Running Tests in CI/CD
 
-Tests can be automatically run in CI/CD pipelines (e.g., GitHub Actions).  
+Tests can be automatically run in CI/CD pipelines (GitHub Actions).  
 On every push or pull request, the workflow in `.github/workflows/` triggers the tests.
 
 To run tests locally:
 ```bash
 npx playwright test
 ```
+
+---
+
+## Reporting
+- **Allure Reports** integrated for clear test results:  
+- Test pass/fail trends.  
+- Execution history.  
+- Attachments/screenshots for failures.
 
 ---
 
