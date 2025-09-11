@@ -21,27 +21,27 @@ SlateSMS is an AI-powered school management platform designed to help educationa
 
 As part of the QA Automation team, I contributed to building and maintaining the test infrastructure that ensured product reliability across modules such as:
 
-Admissions & Enrollment: Online forms, document uploads, and automated tracking
+**Admissions & Enrollment:** Online forms, document uploads, and automated tracking
 
-Fee Management: Digital invoicing, payment gateway integration, and reminders
+**Fee Management:** Digital invoicing, payment gateway integration, and reminders
 
-Smart Scheduling: AI-driven timetable optimization
+**Smart Scheduling:** AI-driven timetable optimization
 
-Learning & Assessment: LMS tools, quizzes, and progress tracking
+**Learning & Assessment:** LMS tools, quizzes, and progress tracking
 
-Communication: Parent portals, mobile apps, and AI chatbots
+**Communication:** Parent portals, mobile apps, and AI chatbots
 
 # KEY FEATURES
 # Infrastructure & Security
-1. Cloud-native platform: Access from any device, anywhere.
+1. **Cloud-native platform:** Access from any device, anywhere.
 
-2. Enterprise-grade security: Protects sensitive data.
+2. **Enterprise-grade security:** Protects sensitive data.
 
-3. Role-based access control: Custom permissions for admins, teachers, parents, and students.
+3. **Role-based access control:** Custom permissions for admins, teachers, parents, and students.
 
-4. Audit logs & compliance: Supports FERPA and GDPR standards.
+4. **Audit logs & compliance:** Supports FERPA and GDPR standards.
 
-5. Multi-tenant & multi-language support: Ideal for districts and diverse communities.
+5. **Multi-tenant & multi-language support:** Ideal for districts and diverse communities.
 
 # School Management
 1. Staff & student directories
@@ -89,11 +89,11 @@ Communication: Parent portals, mobile apps, and AI chatbots
 # Who It's For
 SlateSMS offers tailored solutions for:
 
-1. Administrators: Dashboards, budgeting, compliance
+1. **Administrators:** Dashboards, budgeting, compliance
 
-2. Teachers: Lesson planning, grading, performance tracking
+2. **Teachers:** Lesson planning, grading, performance tracking
 
-3. Parents & Students: Progress tracking, communication, scheduling
+3. **Parents & Students:** Progress tracking, communication, scheduling
 
 ## Getting Started
 
