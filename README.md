@@ -1,3 +1,16 @@
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Key Features](#key-features)
+- [Infrastructure & Security](#infrastructure--security)
+- [School Management](#school-management)
+- [Learning & Assessment](#learning--assessment)
+- [Analytics & Reporting](#analytics--reporting)
+- [Communication](#communication)
+- [Premium Add-ons](#premium-add-ons)
+- [Pricing Tiers](#pricing-tiers)
+- [Getting Started](#getting-started)
+- [Contribution](#contribution)
+- [License](#license)
 
 # SlateSMS - School Management System
 
