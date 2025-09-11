@@ -11,6 +11,7 @@
 - [Getting Started](#getting-started)
 - [Contribution](#contribution)
 - [License](#license)
+- [Who It's For](#who-it's-for)
 
 # SlateSMS - School Management System
 
@@ -85,3 +86,11 @@ Communication: Parent portals, mobile apps, and AI chatbots
 | **Pro**        | Growing schools   | $5/user/month, advanced analytics      |
 | **Enterprise** | Large institutions| Custom pricing, full customization     |
 
+# Who It's For
+SlateSMS offers tailored solutions for:
+
+1. Administrators: Dashboards, budgeting, compliance
+
+2. Teachers: Lesson planning, grading, performance tracking
+
+3. Parents & Students: Progress tracking, communication, scheduling
