@@ -1,6 +1,5 @@
-# slatesms-e2e-testing
 
-# SlateSMS - School Management System
+## SlateSMS - School Management System
 
 # PROJECT OVERVIEW
 
