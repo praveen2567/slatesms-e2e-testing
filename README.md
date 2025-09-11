@@ -17,7 +17,7 @@
 
 # PROJECT OVERVIEW
 
-SlateSMS is an AI-powered school management platform designed to streamline administration, enhance teaching, and improve communication across educational institutions. With features like smart scheduling, fee management, learning assessments, and predictive analytics, SlateSMS empowers schools to operate efficiently while delivering personalized student outcomes.
+SlateSMS is an AI-powered school management platform designed to help educational institutions streamline operations, enhance learning, and improve communication. It’s built for scalability, security, and customization—ideal for schools, districts, and networks.
 
 As part of the QA Automation team, I contributed to building and maintaining the test infrastructure that ensured product reliability across modules such as:
 
