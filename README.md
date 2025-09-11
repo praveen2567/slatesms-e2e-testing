@@ -130,11 +130,7 @@ Follow these steps to set up the project and run the Playwright automation tests
 
 ---
 
-**Tip:**  
-You can customize test execution with Playwright CLI options. For example, to run a specific test file:
-```bash
-npx playwright test tests/example.spec.ts
-```
+
 ## Project Structure
 
 I have designed this repository with a scalable structure based on industry best practices for Playwright automation projects:
@@ -147,8 +143,6 @@ I have designed this repository with a scalable structure based on industry best
 - `reports/` – Auto-generated test result reports, including HTML, JSON, or trace files for debugging and sharing results with the team.
 - `.github/workflows/` – CI/CD workflow definitions (e.g., GitHub Actions) to enable automated test execution on every pull request or push.
 - `package.json` – Project dependencies, scripts for running tests, linting, and more.
-
-> This modular structure reflects my real-world experience and makes it easy to scale, onboard new contributors, and maintain high code quality in a team environment.
 
 ---
 
