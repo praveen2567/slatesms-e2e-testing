@@ -211,5 +211,5 @@ For questions or support, open an [issue](https://github.com/praveen2567/slatesm
 or visit our website: [https://www.slatesms.com](https://www.slatesms.com)
 
 ## Links
-- [Resume](./MT_Praveen_Kumar_QA_Automation.pdf)  
+- [Resume](MT_Praveen_Kumar_QA_Automation .pdf)  
 - [LinkedIn](https://www.linkedin.com/in/mtpraveenkumar/)  
