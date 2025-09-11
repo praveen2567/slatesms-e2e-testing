@@ -209,3 +209,7 @@ Please follow our code style and write clear, maintainable tests.
 
 For questions or support, open an [issue](https://github.com/praveen2567/slatesms-e2e-testing/issues)  
 or visit our website: [https://www.slatesms.com](https://www.slatesms.com)
+
+## Links
+- [Resume](./MT_Praveen_Kumar_QA_Automation.pdf)  
+- [LinkedIn](https://www.linkedin.com/in/mtpraveenkumar/)  
