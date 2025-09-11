@@ -137,10 +137,18 @@ npx playwright test tests/example.spec.ts
 ```
 ## Project Structure
 
-- `tests/` – All Playwright end-to-end test cases (JavaScript)
-- `playwright.config.js` – Playwright configuration file
-- `utils/` – Utility/helper functions (if any)
-- `reports/` – Test result reports (auto-generated)
+I have designed this repository with a scalable structure based on industry best practices for Playwright automation projects:
+
+- `tests/` – All end-to-end Playwright test cases, organized by feature or module for easy maintenance.  
+  *Example: `tests/login.spec.js`, `tests/dashboard/`*
+- `playwright.config.js` – Central Playwright configuration file, including settings for test directory, reporters, timeouts, and environment setup.
+- `utils/` – Utility and helper functions such as custom commands, data generators, or API clients to support your tests.
+- `fixtures/` – Test data, mock files, or reusable fixtures for consistent test environments.
+- `reports/` – Auto-generated test result reports, including HTML, JSON, or trace files for debugging and sharing results with the team.
+- `.github/workflows/` – CI/CD workflow definitions (e.g., GitHub Actions) to enable automated test execution on every pull request or push.
+- `package.json` – Project dependencies, scripts for running tests, linting, and more.
+
+> This modular structure reflects my real-world experience and makes it easy to scale, onboard new contributors, and maintain high code quality in a team environment.
 
 ---
 
@@ -188,26 +196,22 @@ test('homepage loads', async ({ page }) => {
 
 ## Contribution
 
-We welcome contributions!  
+This project is currently under development and actively maintained.  
+We welcome contributions to improve and expand the test coverage!
+
 To contribute:
 
-1. Fork this repository and clone your fork
-2. Create a feature branch (`git checkout -b feature/my-feature`)
-3. Add your tests or changes
-4. Run tests locally with `npx playwright test`
+1. Fork this repository and clone your fork  
+2. Create a feature branch (`git checkout -b feature/my-feature`)  
+3. Add your tests or changes  
+4. Run tests locally with `npx playwright test`  
 5. Open a Pull Request with a clear description
 
 Please follow our code style and write clear, maintainable tests.
 
 ---
 
-## License
-
-This project is licensed under the MIT License.  
-See the [LICENSE](LICENSE) file for details.
-
----
-
 ## Support
 
-For questions or support, open an [issue](https://github.com/praveen2567/slatesms-e2e-testing/issues).
+For questions or support, open an [issue](https://github.com/praveen2567/slatesms-e2e-testing/issues)  
+or visit our website: [https://www.slatesms.com](https://www.slatesms.com)
