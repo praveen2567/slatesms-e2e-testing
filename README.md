@@ -1,4 +1,5 @@
 ## Table of Contents
+
 - [Project Overview](#project-overview)
 - [Key Features](#key-features)
 - [Infrastructure & Security](#infrastructure--security)
@@ -8,10 +9,15 @@
 - [Communication](#communication)
 - [Premium Add-ons](#premium-add-ons)
 - [Pricing Tiers](#pricing-tiers)
+- [Who It's For](#who-its-for)
 - [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [Running Tests in CI/CD](#running-tests-in-cicd)
+- [Configuration](#configuration)
+- [Writing New Tests](#writing-new-tests)
 - [Contribution](#contribution)
-- [License](#license)
-- [Who It's For](#who-it's-for)
+- [Support](#support)
+- [Links](#links)
 
 # SlateSMS - School Management System
 
