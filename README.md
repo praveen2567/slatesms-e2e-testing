@@ -94,3 +94,44 @@ SlateSMS offers tailored solutions for:
 2. Teachers: Lesson planning, grading, performance tracking
 
 3. Parents & Students: Progress tracking, communication, scheduling
+
+## Getting Started
+
+Follow these steps to set up the project and run the Playwright automation tests:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/praveen2567/slatesms-e2e-testing.git
+   cd slatesms-e2e-testing
+   ```
+
+2. **Install dependencies**  
+   Make sure you have [Node.js](https://nodejs.org/) installed (v18+ recommended).
+   ```bash
+   npm install
+   ```
+
+3. **Install Playwright Browsers**  
+   (If not handled automatically by `npm install`)
+   ```bash
+   npx playwright install
+   ```
+
+4. **Run the tests**
+   ```bash
+   npx playwright test
+   ```
+
+5. **View test results**  
+   After tests complete, you can view the HTML report:
+   ```bash
+   npx playwright show-report
+   ```
+
+---
+
+**Tip:**  
+You can customize test execution with Playwright CLI options. For example, to run a specific test file:
+```bash
+npx playwright test tests/example.spec.ts
+```
