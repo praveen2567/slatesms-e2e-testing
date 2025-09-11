@@ -13,8 +13,11 @@
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
 - [Roles & Responsibilities](#roles--responsibilities)
-- [Tech Stack](#tech-stack)
+- [Tech Stack & Prerequisites](#tech-stack)
+- [Key Achievements](#key-achievements)
+- [Business Impact](#business-impact)
 - [Running Tests in CI/CD](#running-tests-in-cicd)
+- [Reporting](#reporting)
 - [Configuration](#configuration)
 - [Writing New Tests](#writing-new-tests)
 - [Contribution](#contribution)
@@ -154,7 +157,7 @@ I have designed this repository with a scalable structure based on industry best
 
 ---
 
-## My Roles & Responsibilities
+## Roles & Responsibilities
 - Designed and built **BDD-driven Playwright framework** from scratch.  
 - Developed and maintained **Page Object Model (POM)** for scalability.  
 - Automated **100+ regression & smoke test cases** (UI + API).  
@@ -168,7 +171,7 @@ I have designed this repository with a scalable structure based on industry best
 
 ---
 
-## Tech Stack & Prerequisites
+## Tech Stack
 To build and execute this framework, the following tools and setup were used:
 
 - **Programming Language:** JavaScript (ES6+)
