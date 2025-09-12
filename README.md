@@ -144,16 +144,53 @@ Follow these steps to set up the project and run the Playwright automation tests
 
 ## Project Structure
 
-I have designed this repository with a scalable structure based on industry best practices for Playwright automation projects:
+slatesms-qa-automation/
+│
+├── tests/                      # Feature-based test specs
+│   ├── login.spec.js
+│   ├── dashboard/
+│   │   └── dashboard.spec.js
+│   └── admissions/
+│       └── admissions.spec.js
+│
+├── pages/                      # Page Object Model (POM) classes
+│   ├── LoginPage.js
+│   ├── DashboardPage.js
+│   └── AdmissionsPage.js
+│
+├── data/                       # Test data for data-driven testing
+│   ├── loginData.json
+│   ├── studentProfiles.json
+│   └── feeScenarios.csv
+│
+├── fixtures/                   # Reusable fixtures and mock setups
+│   ├── baseFixture.js
+│   └── apiMocks.js
+│
+├── utils/                      # Helper functions, custom commands
+│   ├── generateTestUser.js
+│   ├── apiClient.js
+│   └── logger.js
+│
+├── config/                     # Environment configs (dev, staging, prod)
+│   ├── dev.env.js
+│   ├── staging.env.js
+│   └── prod.env.js
+│
+├── reports/                    # Auto-generated test reports
+│   ├── allure-results/
+│   ├── html-report/
+│   └── traces/
+│
+├── .github/
+│   └── workflows/
+│       └── playwright-ci.yml   # GitHub Actions for CI/CD
+│
+├── playwright.config.js        # Core Playwright config
+├── package.json                # Dependencies & scripts
+├── README.md                   # Project overview and instructions
+└── .env                        # Secrets and environment variables
 
-- `tests/` – All end-to-end Playwright test cases, organized by feature or module for easy maintenance.  
-  *Example: `tests/login.spec.js`, `tests/dashboard/`*
-- `playwright.config.js` – Central Playwright configuration file, including settings for test directory, reporters, timeouts, and environment setup.
-- `utils/` – Utility and helper functions such as custom commands, data generators, or API clients to support your tests.
-- `fixtures/` – Test data, mock files, or reusable fixtures for consistent test environments.
-- `reports/` – Auto-generated test result reports, including HTML, JSON, or trace files for debugging and sharing results with the team.
-- `.github/workflows/` – CI/CD workflow definitions (e.g., GitHub Actions) to enable automated test execution on every pull request or push.
-- `package.json` – Project dependencies, scripts for running tests, linting, and more.
 
 ---
 
