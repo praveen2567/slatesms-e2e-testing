@@ -246,13 +246,17 @@ To build and execute this framework, the following tools and setup were used:
 
 ## Running Tests in CI/CD
 
-Tests can be automatically run in CI/CD pipelines (GitHub Actions).  
-On every push or pull request, the workflow in `.github/workflows/` triggers the tests.
+This project is integrated with **GitHub Actions** for automated test execution.
 
-To run tests locally:
+### CI/CD Workflow
+- On every **push** or **pull request**, the workflow in `.github/workflows/playwright-ci.yml` is triggered.
+- It runs all Playwright tests, generates reports, and provides feedback directly in the GitHub UI.
+
+### Running Tests Locally
+To execute tests on your local machine:
+
 ```bash
 npx playwright test
-```
 
 ---
 
