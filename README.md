@@ -144,7 +144,8 @@ Follow these steps to set up the project and run the Playwright automation tests
 
 ## Project Structure
 
-slatesms-qa-automation/
+```
+slatesms-e2e-testing/
 │
 ├── tests/                      # Feature-based test specs
 │   ├── login.spec.js
@@ -190,6 +191,8 @@ slatesms-qa-automation/
 ├── package.json                # Dependencies & scripts
 ├── README.md                   # Project overview and instructions
 └── .env                        # Secrets and environment variables
+```
+
 
 
 ---
