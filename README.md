@@ -212,16 +212,38 @@ slatesms-e2e-testing/
 ---
 
 ## Tech Stack
-To build and execute this framework, the following tools and setup were used:
 
+To build and execute this framework, the following tools and technologies were used:
+
+### Core Technologies
 - **Programming Language:** JavaScript (ES6+)
 - **Automation Tool:** Playwright
-- **Test Runner:** Mocha, Playwright Test
-- **Framework Pattern:** Page Object Model (POM)
-- **Reporting:** Allure Reports
+- **Test Runner:** Playwright Test, Mocha (for legacy specs)
+- **Framework Pattern:** Page Object Model (POM), BDD-style structure
+
+### Reporting & Debugging
+- **Reporters:** Allure Reports, HTML Reporter, Mocha Awesome
+- **Traceability:** Playwright Trace Viewer, Screenshots on Failure
+- **Log Analysis:** Custom logger utility, console tracing
+
+### CI/CD & Version Control
 - **CI/CD:** GitHub Actions
-- **Other Tools:** Node.js, npm, Git, GitHub, Postman, Jira
+- **Version Control:** Git & GitHub
+- **Pipeline Features:** Parallel execution, test matrix, artifact uploads
+
+### API & Data Handling
+- **API Testing:** Postman (manual validation), Playwright APIRequestContext
+- **Test Data:** JSON, CSV, dynamic data generators
+- **Environment Configs:** `.env` files, custom config loader (`config/` folder)
+
+### Browsers & Platforms
 - **Browsers:** Chromium, Firefox, WebKit
+- **Execution Modes:** Headless, headed, cross-browser matrix
+
+### Collaboration & Project Management
+- **Defect Tracking:** Jira
+- **Test Management:** TestRail (manual test cases, traceability)
+- **Agile Tools:** Sprint boards, daily stand-ups, retrospectives
 
 ---
 
@@ -229,7 +251,7 @@ To build and execute this framework, the following tools and setup were used:
 - Automated **100+ test scenarios** (UI + API).  
 - Reduced **manual regression time by 70–80%**.  
 - Achieved **85% pass rate** in regression pipelines.  
-- Delivered **98% defect-free releases across 5 sprints**.  
+- Delivered **95% defect-free releases across 5 sprints**.  
 - Accelerated feedback cycle with **CI/CD automation**.  
 - Detected **15+ critical defects early** using API validations.
 
@@ -252,12 +274,6 @@ This project is integrated with **GitHub Actions** for automated test execution.
 - On every **push** or **pull request**, the workflow in `.github/workflows/playwright-ci.yml` is triggered.
 - It runs all Playwright tests, generates reports, and provides feedback directly in the GitHub UI.
 
-### Running Tests Locally
-To execute tests on your local machine:
-
-```bash
-npx playwright test
-```
 ---
 
 ## Reporting
@@ -270,14 +286,35 @@ npx playwright test
 
 ## Configuration
 
-You can set environment variables in a `.env` file (not committed to git) for things like base URLs or credentials.  
-Example `.env`:
+Environment variables are managed via a `.env` file (excluded from version control) to store sensitive data like base URLs and credentials.
+
+### Example `.env`
 ```
 BASE_URL=https://test-env.example.com
 USERNAME=testuser
 PASSWORD=supersecret
 ```
-> Use [dotenv](https://www.npmjs.com/package/dotenv) or similar to load these variables in your Playwright setup if needed.
+
+> Use [dotenv](https://www.npmjs.com/package/dotenv) or similar to load these variables in your Playwright setup.
+
+### Git Ignore Tip
+Make sure `.env` is listed in your `.gitignore` to avoid committing secrets:
+
+```
+# .gitignore
+.env
+```
+
+### Loading Variables in Code
+To access these variables in your test setup or config file:
+
+```javascript
+require('dotenv').config();
+
+const baseURL = process.env.BASE_URL;
+const username = process.env.USERNAME;
+const password = process.env.PASSWORD;
+```
 
 ---
 
