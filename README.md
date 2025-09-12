@@ -1,3 +1,5 @@
+ # SlateSMS E2E Testing Framework
+
 ## Table of Contents
 
 - [Project Overview](#project-overview)
@@ -23,6 +25,7 @@
 - [Contribution](#contribution)
 - [Support](#support)
 - [Links](#links)
+
 
 # SlateSMS - School Management System
 
