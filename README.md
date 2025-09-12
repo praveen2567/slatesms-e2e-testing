@@ -1,6 +1,5 @@
  # SlateSMS E2E Testing Framework
 
-### QA Automation for an AI-Powered School Management System
 
 ## Table of Contents
 
