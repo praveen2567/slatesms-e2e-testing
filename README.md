@@ -320,9 +320,11 @@ const password = process.env.PASSWORD;
 
 ## Writing New Tests
 
-Add new JavaScript test files in the `tests/` directory.
+To add new test cases, create JavaScript files inside the `tests/` directory.  
+Follow Playwright's syntax and use environment variables for flexibility.
 
-Example:
+### Example Test File
+
 ```javascript
 // tests/example.spec.js
 const { test, expect } = require('@playwright/test');
@@ -338,17 +340,24 @@ test('homepage loads', async ({ page }) => {
 ## Contribution
 
 This project is currently under development and actively maintained.  
-We welcome contributions to improve and expand the test coverage!
+While the source code is not publicly available due to confidentiality, contributions to improve documentation, structure, or test strategy are welcome.
 
-To contribute:
+### How to Contribute (when applicable)
 
 1. Fork this repository and clone your fork  
 2. Create a feature branch (`git checkout -b feature/my-feature`)  
 3. Add your tests or changes  
 4. Run tests locally with `npx playwright test`  
-5. Open a Pull Request with a clear description
+5. Open a Pull Request with a clear description of your changes
 
-Please follow our code style and write clear, maintainable tests.
+### Guidelines
+
+- Follow our code style and write clear, maintainable tests  
+- Ensure your changes pass linting and formatting checks  
+- Include relevant test coverage for new features or bug fixes  
+- Feel free to suggest improvements via GitHub Issues or Discussions
+
+> This section will be updated if the project becomes open-source or team-collaborative.
 
 ---
 
