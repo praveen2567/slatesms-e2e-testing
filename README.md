@@ -257,7 +257,7 @@ To execute tests on your local machine:
 
 ```bash
 npx playwright test
-
+```
 ---
 
 ## Reporting
