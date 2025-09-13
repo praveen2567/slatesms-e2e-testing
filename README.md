@@ -220,7 +220,7 @@ To build and execute this framework, the following tools and technologies were u
 ### Core Technologies
 - **Programming Language:** JavaScript (ES6+)
 - **Automation Tool:** Playwright
-- **Test Runner:** Playwright Test, Mocha (for legacy specs)
+- **Test Runner:** Playwright Test, Mocha
 - **Framework Pattern:** Page Object Model (POM), BDD-style structure
 
 ### Reporting & Debugging
@@ -244,7 +244,7 @@ To build and execute this framework, the following tools and technologies were u
 
 ### Collaboration & Project Management
 - **Defect Tracking:** Jira
-- **Test Management:** TestRail (manual test cases, traceability)
+- **Test Management:** Zephyr (manual test cases, traceability)
 - **Agile Tools:** Sprint boards, daily stand-ups, retrospectives
 
 ---
@@ -369,8 +369,9 @@ For questions or support, open an [issue](https://github.com/praveen2567/slatesm
 or visit our website: [https://www.slatesms.com](https://www.slatesms.com)
 
 ## Links
-- [Resume](./MT_Praveen_Kumar_QA_Automation.pdf) 
-- [LinkedIn](https://www.linkedin.com/in/mtpraveenkumar/)
-- [GitHub](https://github.com/praveen2567)
-- **Email:** praveenmt.kumar@gmail.com
-- **Mobile:** +91-9390660259  
+- [Resume](./MT_Praveen_Kumar_QA_Automation.pdf)  
+- [LinkedIn](https://www.linkedin.com/in/mtpraveenkumar/)  
+- [GitHub](https://github.com/praveen2567)  
+- **Email:** [praveenmt.kumar@gmail.com](mailto:praveenmt.kumar@gmail.com)  
+- **Mobile:** [+91-9390660259](tel:+91-9390660259)
+ 
