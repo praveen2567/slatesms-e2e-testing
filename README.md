@@ -375,7 +375,7 @@ or visit our website: [https://www.slatesms.com](https://www.slatesms.com)
 ## Links
 - [Resume](./MT_Praveen_Kumar_QA_Automation.pdf)  
 - [LinkedIn](https://www.linkedin.com/in/mtpraveenkumar/)  
-- [GitHub](https://github.com/praveen2567)  
+- [GitHub]([https://github.com/praveen2567](https://github.com/praveen2567/slatesms-e2e-testing/blob/main/README.md)  
 - **Email:** [praveenmt.kumar@gmail.com](mailto:praveenmt.kumar@gmail.com)  
 - **Mobile:** [+91-9390660259](tel:+919390660259)
  
