@@ -1,4 +1,7 @@
- # SlateSMS E2E Testing Framework
+![SlateSMS Dashboard](./slatesms-img.png)
+
+ 
+# SlateSMS E2E Testing Framework
 
 
 ## Table of Contents
