@@ -28,7 +28,7 @@
 - [Links](#links)
 
 
-# PROJECT OVERVIEW
+## PROJECT OVERVIEW
 
 SlateSMS is an AI-powered school management platform designed to help educational institutions streamline operations, enhance learning, and improve communication. It’s built for scalability, security, and customization ideal for schools, districts, and networks.
 
@@ -44,8 +44,8 @@ As part of the QA Automation team, I contributed to building and maintaining the
 
 **Communication:** Parent portals, mobile apps, and AI chatbots
 
-# KEY FEATURES
-# Infrastructure & Security
+## KEY FEATURES
+### Infrastructure & Security
 1. **Cloud-native platform:** Access from any device, anywhere.
 
 2. **Enterprise-grade security:** Protects sensitive data.
@@ -56,7 +56,7 @@ As part of the QA Automation team, I contributed to building and maintaining the
 
 5. **Multi-tenant & multi-language support:** Ideal for districts and diverse communities.
 
-# School Management
+### School Management
 1. Staff & student directories
 
 2. Online admissions & enrollment
@@ -67,31 +67,31 @@ As part of the QA Automation team, I contributed to building and maintaining the
 
 5. Event & calendar coordination
 
-# Learning & Assessment
+### Learning & Assessment
 1. Built-in LMS for course materials, assignments, and quizzes
 
 2. Assessment tools with analytics and reporting
 
-# Analytics & Reporting
+### Analytics & Reporting
 1. Student performance dashboards
 
 2. Predictive analytics
 
 3. Custom report builder with drag-and-drop interface
 
-# Communication
+### Communication
 1. Parent portal & mobile app with real-time updates
 
 2. AI chatbots for instant support
 
-# Premium Add-ons
+### Premium Add-ons
 1. Gamification modules for engagement
 
 2. Career counseling powered by AI
 
 3. Third-party integrations (Zoom, Google Classroom, Microsoft Teams)
 
-# Pricing Tiers  
+### Pricing Tiers  
 
 | Plan       | Ideal For        | Key Highlights                        |
 |------------|------------------|---------------------------------------|
@@ -99,7 +99,7 @@ As part of the QA Automation team, I contributed to building and maintaining the
 | **Pro**        | Growing schools   | $5/user/month, advanced analytics      |
 | **Enterprise** | Large institutions| Custom pricing, full customization     |
 
-# Who It's For
+## Who It's For
 SlateSMS offers tailored solutions for:
 
 1. **Administrators:** Dashboards, budgeting, compliance
