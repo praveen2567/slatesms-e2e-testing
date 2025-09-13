@@ -1,8 +1,8 @@
+
+![SlateSMS Dashboard](https://github.com/user-attachments/assets/6bb375d8-7085-4199-b107-533531912555))
 <p align="center">
   <img src="https://user-images.githubusercontent.com/xxxxxxxx/your-uploaded-image.png" alt="SlateSMS Dashboard" width="800" height="auto"/>
 </p>
-
-![SlateSMS Dashboard](https://github.com/user-attachments/assets/6bb375d8-7085-4199-b107-533531912555))
 
  
 # SlateSMS E2E Testing Framework
