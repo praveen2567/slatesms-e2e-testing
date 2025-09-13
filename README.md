@@ -373,5 +373,5 @@ or visit our website: [https://www.slatesms.com](https://www.slatesms.com)
 - [LinkedIn](https://www.linkedin.com/in/mtpraveenkumar/)  
 - [GitHub](https://github.com/praveen2567)  
 - **Email:** [praveenmt.kumar@gmail.com](mailto:praveenmt.kumar@gmail.com)  
-- **Mobile:** [+91-9390660259](tel:+91-9390660259)
+- **Mobile:** [+91-9390660259](tel:+919390660259)
  
