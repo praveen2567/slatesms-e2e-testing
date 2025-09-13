@@ -1,4 +1,4 @@
-![SlateSMS Dashboard](./slatesms-img.png)
+![SlateSMS Dashboard](https://github.com/user-attachments/assets/6bb375d8-7085-4199-b107-533531912555))
 
  
 # SlateSMS E2E Testing Framework
