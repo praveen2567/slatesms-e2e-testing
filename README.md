@@ -201,7 +201,7 @@ slatesms-e2e-testing/
 - 🚀 Participated in Agile ceremonies & process improvement
 
 ---
-
+<a name="tech-stack"></a>
 ## 🛠️ Tech Stack
 
 | Category          | Tools & Tech                                  |
@@ -255,7 +255,7 @@ slatesms-e2e-testing/
 - Screenshots and traces attached for failures
 
 ---
-
+<a name="configuration"></a>
 ## ⚙️ Configuration
 
 > **Tip:** Store secrets & env variables in `.env` (not committed)!
