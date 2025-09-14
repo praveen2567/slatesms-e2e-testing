@@ -30,12 +30,6 @@
 
 - [📝 Project Overview](#-project-overview)
 - [🚀 Key Features](#-key-features)
-- [🔒 Infrastructure & Security](#-infrastructure--security)
-- [🏫 School Management](#-school-management)
-- [🎓 Learning & Assessment](#-learning--assessment)
-- [📊 Analytics & Reporting](#-analytics--reporting)
-- [💬 Communication](#-communication)
-- [⭐ Premium Add-ons](#-premium-add-ons)
 - [💰 Pricing Tiers](#-pricing-tiers)
 - [👥 Who It's For](#-who-its-for)
 - [⚡ Getting Started](#-getting-started)
