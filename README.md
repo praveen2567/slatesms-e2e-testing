@@ -24,13 +24,6 @@
   <b>AI-powered school management, now with robust automated testing!</b>
 </p>
 
-<!-- 👉 INSERT THE ALLURE DASHBOARD IMAGE HERE: -->
-<p align="center">
-  <img src="https://docs.qameta.io/allure/img/dashboards.png" width="700" alt="Allure Report Dashboard Sample"/>
-  <br>
-  <em>Allure Report Dashboard (sample)</em>
-</p>
-
 ---
 
 ## 📚 Table of Contents
