@@ -1,337 +1,290 @@
+<!-- LOGO & BADGES -->
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6bb375d8-7085-4199-b107-533531912555" width="300" alt="SlateSMS Dashboard"/>
+</p>
 
-![SlateSMS Dashboard](https://github.com/user-attachments/assets/6bb375d8-7085-4199-b107-533531912555)
+<p align="center">
+  <a href="https://github.com/praveen2567/slatesms-e2e-testing/actions">
+    <img src="https://img.shields.io/github/workflow/status/praveen2567/slatesms-e2e-testing/Playwright%20CI?logo=github&style=flat-square" alt="CI Status"/>
+  </a>
+  <a href="https://www.npmjs.com/package/playwright">
+    <img src="https://img.shields.io/badge/Playwright-Test-blue?logo=playwright&style=flat-square" alt="Playwright"/>
+  </a>
+  <a href="https://nodejs.org/">
+    <img src="https://img.shields.io/badge/Node.js-18+-green?logo=node.js&style=flat-square" alt="Node.js"/>
+  </a>
+  <a href="https://github.com/praveen2567/slatesms-e2e-testing/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/praveen2567/slatesms-e2e-testing?style=flat-square" alt="License"/>
+  </a>
+</p>
 
- 
-# SlateSMS E2E Testing Framework
+<h1 align="center">✨ SlateSMS E2E Testing Framework ✨</h1>
 
+<p align="center">
+  <b>AI-powered school management, now with robust automated testing!</b>
+</p>
 
-## Table of Contents
+---
 
-- [Project Overview](#project-overview)
-- [Key Features](#key-features)
-- [Infrastructure & Security](#infrastructure--security)
-- [School Management](#school-management)
-- [Learning & Assessment](#learning--assessment)
-- [Analytics & Reporting](#analytics--reporting)
-- [Communication](#communication)
-- [Premium Add-ons](#premium-add-ons)
-- [Pricing Tiers](#pricing-tiers)
-- [Who It's For](#who-its-for)
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Roles & Responsibilities](#roles--responsibilities)
-- [Tech Stack & Prerequisites](#tech-stack)
-- [Key Achievements](#key-achievements)
-- [Business Impact](#business-impact)
-- [Running Tests in CI/CD](#running-tests-in-cicd)
-- [Reporting](#reporting)
-- [Configuration](#configuration)
-- [Writing New Tests](#writing-new-tests)
-- [Contribution](#contribution)
-- [Support](#support)
-- [Links](#links)
+## 📚 Table of Contents
 
+- [📝 Project Overview](#-project-overview)
+- [🚀 Key Features](#-key-features)
+- [🔒 Infrastructure & Security](#-infrastructure--security)
+- [🏫 School Management](#-school-management)
+- [🎓 Learning & Assessment](#-learning--assessment)
+- [📊 Analytics & Reporting](#-analytics--reporting)
+- [💬 Communication](#-communication)
+- [⭐ Premium Add-ons](#-premium-add-ons)
+- [💰 Pricing Tiers](#-pricing-tiers)
+- [👥 Who It's For](#-who-its-for)
+- [⚡ Getting Started](#-getting-started)
+- [📁 Project Structure](#-project-structure)
+- [🧑‍💻 Roles & Responsibilities](#-roles--responsibilities)
+- [🛠️ Tech Stack & Prerequisites](#-tech-stack)
+- [🏆 Key Achievements](#-key-achievements)
+- [💼 Business Impact](#-business-impact)
+- [🔄 Running Tests in CI/CD](#-running-tests-in-cicd)
+- [📈 Reporting](#-reporting)
+- [⚙️ Configuration](#-configuration)
+- [🧪 Writing New Tests](#-writing-new-tests)
+- [🤝 Contribution](#-contribution)
+- [🆘 Support](#-support)
+- [🔗 Links](#-links)
 
-## PROJECT OVERVIEW
+---
 
-SlateSMS is an AI-powered school management platform designed to help educational institutions streamline operations, enhance learning, and improve communication. It’s built for scalability, security, and customization ideal for schools, districts, and networks.
+## 📝 Project Overview
 
-As part of the QA Automation team, I contributed to building and maintaining the test infrastructure that ensured product reliability across modules such as:
+> **SlateSMS** is an <b>AI-powered school management platform</b> that streamlines operations, enhances learning, and improves communication for educational institutions. This repo houses the end-to-end (E2E) Playwright automation suite ensuring the highest product reliability.
 
-**Admissions & Enrollment:** Online forms, document uploads, and automated tracking
+As part of the QA Automation team, I contributed to building and maintaining the test infrastructure for modules like:
 
-**Fee Management:** Digital invoicing, payment gateway integration, and reminders
+- **Admissions & Enrollment**: Online forms, document uploads, tracking
+- **Fee Management**: Digital invoicing, payment integration, reminders
+- **Smart Scheduling**: AI-driven timetable optimization
+- **Learning & Assessment**: LMS tools, quizzes, progress tracking
+- **Communication**: Parent portals, mobile apps, AI chatbots
 
-**Smart Scheduling:** AI-driven timetable optimization
+---
 
-**Learning & Assessment:** LMS tools, quizzes, and progress tracking
+## 🚀 Key Features
 
-**Communication:** Parent portals, mobile apps, and AI chatbots
+<details>
+<summary><b>🔒 Infrastructure & Security</b></summary>
 
-## KEY FEATURES
-### Infrastructure & Security
-1. **Cloud-native platform:** Access from any device, anywhere.
+- ☁️ **Cloud-native platform:** Access from anywhere, any device  
+- 🛡️ **Enterprise-grade security:** Protects sensitive data  
+- 🔑 **Role-based access control:** Custom permissions for each user type  
+- 📜 **Audit logs & compliance:** Supports FERPA, GDPR  
+- 🌎 **Multi-tenant & multi-language:** For districts & diverse communities  
+</details>
 
-2. **Enterprise-grade security:** Protects sensitive data.
+<details>
+<summary><b>🏫 School Management</b></summary>
 
-3. **Role-based access control:** Custom permissions for admins, teachers, parents, and students.
+- 👨‍🏫 Staff & student directories  
+- 📝 Online admissions & enrollment  
+- 💳 Fee management (payment gateway)  
+- 🗓️ AI-powered scheduling  
+- 📆 Event & calendar coordination  
+</details>
 
-4. **Audit logs & compliance:** Supports FERPA and GDPR standards.
+<details>
+<summary><b>🎓 Learning & Assessment</b></summary>
 
-5. **Multi-tenant & multi-language support:** Ideal for districts and diverse communities.
+- 📚 Built-in LMS for materials & quizzes  
+- 📊 Assessment tools with analytics  
+</details>
 
-### School Management
-1. Staff & student directories
+<details>
+<summary><b>📊 Analytics & Reporting</b></summary>
 
-2. Online admissions & enrollment
+- 📈 Student performance dashboards  
+- 🤖 Predictive analytics  
+- 🧩 Custom report builder  
+</details>
 
-3. Fee management with payment gateway integration
+<details>
+<summary><b>💬 Communication</b></summary>
 
-4. AI-powered scheduling
+- 📱 Parent portal & mobile app  
+- 🤖 AI chatbots  
+</details>
 
-5. Event & calendar coordination
+<details>
+<summary><b>⭐ Premium Add-ons</b></summary>
 
-### Learning & Assessment
-1. Built-in LMS for course materials, assignments, and quizzes
+- 🏆 Gamification modules  
+- 🎓 AI-powered career counseling  
+- 🔌 3rd-party integrations (Zoom, Google Classroom, MS Teams)  
+</details>
 
-2. Assessment tools with analytics and reporting
+---
 
-### Analytics & Reporting
-1. Student performance dashboards
+## 💰 Pricing Tiers
 
-2. Predictive analytics
+| 🏷️ Plan        | Ideal For         | Key Highlights                        |
+|:--------------:|:----------------:|:--------------------------------------:|
+| 🟢 **Basic**       | Small schools     | Free forever, up to 100 students       |
+| 🟡 **Pro**         | Growing schools   | $5/user/month, advanced analytics      |
+| 🔵 **Enterprise**  | Large institutions| Custom pricing, full customization     |
 
-3. Custom report builder with drag-and-drop interface
+---
 
-### Communication
-1. Parent portal & mobile app with real-time updates
+## 👥 Who It's For
 
-2. AI chatbots for instant support
-
-### Premium Add-ons
-1. Gamification modules for engagement
-
-2. Career counseling powered by AI
-
-3. Third-party integrations (Zoom, Google Classroom, Microsoft Teams)
-
-### Pricing Tiers  
-
-| Plan       | Ideal For        | Key Highlights                        |
-|------------|------------------|---------------------------------------|
-| **Basic**      | Small schools     | Free forever, up to 100 students       |
-| **Pro**        | Growing schools   | $5/user/month, advanced analytics      |
-| **Enterprise** | Large institutions| Custom pricing, full customization     |
-
-## Who It's For
 SlateSMS offers tailored solutions for:
 
-1. **Administrators:** Dashboards, budgeting, compliance
-
-2. **Teachers:** Lesson planning, grading, performance tracking
-
-3. **Parents & Students:** Progress tracking, communication, scheduling
-
-## Getting Started
-
-Follow these steps to set up the project and run the Playwright automation tests:
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/praveen2567/slatesms-e2e-testing.git
-   cd slatesms-e2e-testing
-   ```
-
-2. **Install dependencies**  
-   Make sure you have [Node.js](https://nodejs.org/) installed (v18+ recommended).
-   ```bash
-   npm install
-   ```
-
-3. **Install Playwright Browsers**  
-   (If not handled automatically by `npm install`)
-   ```bash
-   npx playwright install
-   ```
-
-4. **Run the tests**
-   ```bash
-   npx playwright test
-   ```
-
-5. **View test results**  
-   After tests complete, you can view the HTML report:
-   ```bash
-   npx playwright show-report
-   ```
+- **Administrators:** Dashboards, budgeting, compliance
+- **Teachers:** Lesson planning, grading, performance tracking
+- **Parents & Students:** Progress tracking, scheduling, communication
 
 ---
 
+## ⚡ Getting Started
 
-## Project Structure
+> **🛠️ Quickstart**
 
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/praveen2567/slatesms-e2e-testing.git
+cd slatesms-e2e-testing
+
+# 2️⃣ Install dependencies
+npm install
+
+# 3️⃣ Install Playwright browsers (optional)
+npx playwright install
+
+# 4️⃣ Run the tests
+npx playwright test
+
+# 5️⃣ View the HTML report
+npx playwright show-report
 ```
+
+---
+
+## 📁 Project Structure
+
+```tree
 slatesms-e2e-testing/
-│
-├── tests/                      # Feature-based test specs
+├── tests/           # Feature-based test specs
 │   ├── login.spec.js
 │   ├── dashboard/
-│   │   └── dashboard.spec.js
 │   └── admissions/
-│       └── admissions.spec.js
-│
-├── pages/                      # Page Object Model (POM) classes
-│   ├── LoginPage.js
-│   ├── DashboardPage.js
-│   └── AdmissionsPage.js
-│
-├── data/                       # Test data for data-driven testing
-│   ├── loginData.json
-│   ├── studentProfiles.json
-│   └── feeScenarios.csv
-│
-├── fixtures/                   # Reusable fixtures and mock setups
-│   ├── baseFixture.js
-│   └── apiMocks.js
-│
-├── utils/                      # Helper functions, custom commands
-│   ├── generateTestUser.js
-│   ├── apiClient.js
-│   └── logger.js
-│
-├── config/                     # Environment configs (dev, staging, prod)
-│   ├── dev.env.js
-│   ├── staging.env.js
-│   └── prod.env.js
-│
-├── reports/                    # Auto-generated test reports
-│   ├── allure-results/
-│   ├── html-report/
-│   └── traces/
-│
-├── .github/
-│   └── workflows/
-│       └── playwright-ci.yml   # GitHub Actions for CI/CD
-│
-├── playwright.config.js        # Core Playwright config
-├── package.json                # Dependencies & scripts
-├── README.md                   # Project overview and instructions
-└── .env                        # Secrets and environment variables
+├── pages/           # Page Object Model (POM) classes
+├── data/            # Test data (JSON, CSV)
+├── fixtures/        # Reusable fixtures/mocks
+├── utils/           # Helpers, custom commands
+├── config/          # Environment configs
+├── reports/         # Test reports, traces
+├── .github/workflows/
+│   └── playwright-ci.yml
+├── playwright.config.js
+├── package.json
+├── README.md
+└── .env             # Secrets (not committed)
 ```
 
+---
 
+## 🧑‍💻 Roles & Responsibilities
+
+- 🚦 Designed BDD-driven Playwright framework from scratch
+- 🏗️ Developed scalable **POM** structure
+- 🧪 Automated **100+ regression & smoke tests** (UI + API)
+- 🔗 Integrated with **GitHub Actions** for CI/CD
+- 📊 Configured **Allure Reports** for traceability
+- ⚡ Enabled parallel test execution
+- 🤝 Collaborated for shift-left testing
+- 🛠️ Maintained test data & configs
+- 🔁 Troubleshot & stabilized flaky tests
+- 🚀 Participated in Agile ceremonies & process improvement
 
 ---
 
-## Roles & Responsibilities
-- Designed and built **BDD-driven Playwright framework** from scratch.  
-- Developed and maintained **Page Object Model (POM)** for scalability.  
-- Automated **100+ regression & smoke test cases** (UI + API).  
-- Integrated framework with **GitHub Actions** for CI/CD pipelines.  
-- Configured **Allure Reports** for test visibility and traceability.  
-- Implemented **parallel execution** for faster test runs.  
-- Collaborated with developers & QA team for **shift-left testing**.  
-- Maintained **test data and environment configurations**.  
-- Troubleshot flaky tests and applied **retry logic**.  
-- Participated in **Agile ceremonies (sprint planning, retrospectives, daily stand-ups)**.  
+## 🛠️ Tech Stack
+
+| Category          | Tools & Tech                                  |
+|-------------------|-----------------------------------------------|
+| Language          | ![JS](https://img.shields.io/badge/JavaScript-ES6+-yellow?style=flat-square) |
+| Automation        | ![Playwright](https://img.shields.io/badge/-Playwright-green?logo=playwright&style=flat-square) |
+| Test Runner       | Playwright Test, Mocha                        |
+| Framework         | POM, BDD                                      |
+| Reporting         | Allure, HTML, Mochawesome                     |
+| CI/CD             | GitHub Actions                                |
+| API Testing       | Postman, Playwright APIRequestContext         |
+| Data              | JSON, CSV, dynamic generators                 |
+| Browsers          | Chromium, Firefox, WebKit                     |
+| Management        | Jira, Zephyr, Agile tools                     |
 
 ---
 
-## Tech Stack
+## 🏆 Key Achievements
 
-To build and execute this framework, the following tools and technologies were used:
-
-### Core Technologies
-- **Programming Language:** JavaScript (ES6+)
-- **Automation Tool:** Playwright
-- **Test Runner:** Playwright Test, Mocha
-- **Framework Pattern:** Page Object Model (POM), BDD-style structure
-
-### Reporting & Debugging
-- **Reporters:** Allure Reports, HTML Reporter, Mocha Awesome
-- **Traceability:** Playwright Trace Viewer, Screenshots on Failure
-- **Log Analysis:** Custom logger utility, console tracing
-
-### CI/CD & Version Control
-- **CI/CD:** GitHub Actions
-- **Version Control:** Git & GitHub
-- **Pipeline Features:** Parallel execution, test matrix, artifact uploads
-
-### API & Data Handling
-- **API Testing:** Postman (manual validation), Playwright APIRequestContext
-- **Test Data:** JSON, CSV, dynamic data generators
-- **Environment Configs:** `.env` files, custom config loader (`config/` folder)
-
-### Browsers & Platforms
-- **Browsers:** Chromium, Firefox, WebKit
-- **Execution Modes:** Headless, headed, cross-browser matrix
-
-### Collaboration & Project Management
-- **Defect Tracking:** Jira
-- **Test Management:** Zephyr (manual test cases, traceability)
-- **Agile Tools:** Sprint boards, daily stand-ups, retrospectives
+- 🧪 Automated **100+ test scenarios**
+- ⏱️ Reduced manual regression time by **70–80%**
+- 📈 Achieved **85% pass rate** in regression pipelines
+- 🚀 Delivered **95% defect-free releases** over 5 sprints
+- 🔎 Detected **15+ critical defects** early via API validations
 
 ---
 
-## Key Achievements
-- Automated **100+ test scenarios** (UI + API).  
-- Reduced **manual regression time by 70–80%**.  
-- Achieved **85% pass rate** in regression pipelines.  
-- Delivered **95% defect-free releases across 5 sprints**.  
-- Accelerated feedback cycle with **CI/CD automation**.  
-- Detected **15+ critical defects early** using API validations.
+## 💼 Business Impact
+
+- ✅ Improved release confidence for stakeholders
+- 🚀 Faster go-to-market with reliable automation
+- 🤝 Enhanced dev-QA collaboration (shift-left)
+- 💰 Reduced production defects (cost & time savings)
+- ♻️ Created a reusable, extensible automation framework
 
 ---
 
-## Business Impact
-- Improved **release confidence** for stakeholders.  
-- Faster go-to-market with **reliable automation pipelines**.  
-- Enhanced **developer collaboration** via shift-left testing.  
-- Reduced **production defects**, saving cost & time.  
-- Created a **reusable automation framework** that can be extended to future projects.
-  
----
+## 🔄 Running Tests in CI/CD
 
-## Running Tests in CI/CD
+- CI pipeline triggered on every **push** or **pull request**
+- Runs all Playwright tests, generates reports, and posts results in GitHub UI
 
-This project is integrated with **GitHub Actions** for automated test execution.
-
-### CI/CD Workflow
-- On every **push** or **pull request**, the workflow in `.github/workflows/playwright-ci.yml` is triggered.
-- It runs all Playwright tests, generates reports, and provides feedback directly in the GitHub UI.
+> See `.github/workflows/playwright-ci.yml` for workflow details.
 
 ---
 
-## Reporting
-- **Allure Reports** integrated for clear test results:  
-- Test pass/fail trends.  
-- Execution history.  
-- Attachments/screenshots for failures.
+## 📈 Reporting
+
+- **Allure Reports** for clear test results  
+- Trends, execution history, pass/fail stats  
+- Screenshots and traces attached for failures
 
 ---
 
-## Configuration
+## ⚙️ Configuration
 
-Environment variables are managed via a `.env` file (excluded from version control) to store sensitive data like base URLs and credentials.
+> **Tip:** Store secrets & env variables in `.env` (not committed)!
 
-### Example `.env`
-```
+**Example `.env`:**
+```env
 BASE_URL=https://test-env.example.com
 USERNAME=testuser
 PASSWORD=supersecret
 ```
 
-> Use [dotenv](https://www.npmjs.com/package/dotenv) or similar to load these variables in your Playwright setup.
-
-### Git Ignore Tip
-Make sure `.env` is listed in your `.gitignore` to avoid committing secrets:
-
-```
-# .gitignore
-.env
-```
-
-### Loading Variables in Code
-To access these variables in your test setup or config file:
-
-```javascript
+**Load variables in code:**
+```js
 require('dotenv').config();
-
 const baseURL = process.env.BASE_URL;
-const username = process.env.USERNAME;
-const password = process.env.PASSWORD;
 ```
+
+> Make sure `.env` is in your `.gitignore`!
 
 ---
 
-## Writing New Tests
+## 🧪 Writing New Tests
 
-To add new test cases, create JavaScript files inside the `tests/` directory.  
-Follow Playwright's syntax and use environment variables for flexibility.
+Add JavaScript test files under `tests/` using Playwright syntax:
 
-### Example Test File
-
-```javascript
+```js
 // tests/example.spec.js
 const { test, expect } = require('@playwright/test');
 
@@ -343,39 +296,43 @@ test('homepage loads', async ({ page }) => {
 
 ---
 
-## Contribution
+## 🤝 Contribution
 
-This project is currently under development and actively maintained.  
-While the source code is not publicly available due to confidentiality, contributions to improve documentation, structure, or test strategy are welcome.
+> **Note:** Source code is private, but you can contribute to documentation and strategy!
 
-### How to Contribute (when applicable)
+**How to contribute (if/when open):**
+1. Fork and clone this repo  
+2. Create a feature branch  
+3. Add your changes / tests  
+4. Run `npx playwright test`  
+5. Open a PR with a clear description
 
-1. Fork this repository and clone your fork  
-2. Create a feature branch (`git checkout -b feature/my-feature`)  
-3. Add your tests or changes  
-4. Run tests locally with `npx playwright test`  
-5. Open a Pull Request with a clear description of your changes
-
-### Guidelines
-
-- Follow our code style and write clear, maintainable tests  
-- Ensure your changes pass linting and formatting checks  
-- Include relevant test coverage for new features or bug fixes  
-- Feel free to suggest improvements via GitHub Issues or Discussions
-
-> This section will be updated if the project becomes open-source or team-collaborative.
+**Guidelines:**
+- Follow code style and write maintainable tests
+- Pass linting & formatting checks
+- Ensure coverage for new features/bugs
+- Suggest improvements via Issues/Discussions
 
 ---
 
-## Support
+## 🆘 Support
 
-For questions or support, open an [issue](https://github.com/praveen2567/slatesms-e2e-testing/issues)  
-or visit our website: [https://www.slatesms.com](https://www.slatesms.com)
+Questions or need help?
+- Open an [issue](https://github.com/praveen2567/slatesms-e2e-testing/issues)
+- Visit: [slatesms.com](https://www.slatesms.com)
 
-## Links
-- [Resume](./MT_Praveen_Kumar_QA_Automation.pdf)  
-- [LinkedIn](https://www.linkedin.com/in/mtpraveenkumar/)  
-- [GitHub](https://github.com/praveen2567/slatesms-e2e-testing/blob/main/README.md) 
-- **Email:** [praveenmt.kumar@gmail.com](mailto:praveenmt.kumar@gmail.com)  
-- **Mobile:** [+91-9390660259](tel:+919390660259)
- 
+---
+
+## 🔗 Links
+
+- 📄 [Resume](./MT_Praveen_Kumar_QA_Automation.pdf)
+- 💼 [LinkedIn](https://www.linkedin.com/in/mtpraveenkumar/)
+- 🐙 [GitHub](https://github.com/praveen2567/slatesms-e2e-testing)
+- 📧 **Email:** [praveenmt.kumar@gmail.com](mailto:praveenmt.kumar@gmail.com)
+- 📱 **Mobile:** [+91-9390660259](tel:+919390660259)
+
+---
+
+<p align="center">
+  <b>Made with ❤️ by Praveen Kumar & SlateSMS QA Team</b>
+</p>
