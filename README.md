@@ -316,7 +316,7 @@ test('homepage loads', async ({ page }) => {
 
 Questions or need help?
 - Open an [issue](https://github.com/praveen2567/slatesms-e2e-testing/issues)
-- Visit: [slatesms.com](https://www.slatesms.com)
+- Visit: [slateedutech.com](https://www.slateedutech.com)
 
 ---
 
